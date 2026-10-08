@@ -1,4 +1,4 @@
----
+--- 
 name: token-context-optimizer
 description: Optimize Hermes Agent and Codex workflows for lower token usage, lower input cost, better prompt-cache reuse, and longer useful context. Use whenever a task is becoming token-heavy, a session is long, context is filling, tool output is large, many files/tools are being inspected, repeated commands are being issued, Codex is being delegated work, model switching is being considered, or the user asks to make an agent workflow cheaper/faster/more context-efficient. Prefer concrete inspection and workflow changes over generic prompting advice. Do not optimize by sacrificing correctness, required context, security, or verification.
 version: 1.0.0
